@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg#040D12">
+    {% extends 'navbar.html' %}
+    {% block content %}
+
+    <section>
+      <div class="container">
+        <div class="hero">
+          <div class="hero_left">
+            <h2>PUBG ACCOUNTS</h2>
+            <p>
+              bu yerda siz pubg mobile da account sotishingiz va sotib
+              olishingiz mumkin.
+            </p>
+          </div>
+          <div class="hero_right">
+            <img src="/images/hero_img.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="cards">
+      <div class="container">
+        <h1 class="section-title text-center">ACCOUNTLAR HAQIDA</h1>
+        <div class="row justify-content-md-around g-4 justify-content-center">
+          <div class="col-10 col-md-5">
+            <div class="card">
+              <div class="card-img">
+                <img src="./images/card-img1.jpg" alt="" class="card-img" />
+              </div>
+              <h2 class="text-center card-h2">ACCOUNTS</h2>
+              <p class="text-center card-text">
+                Siz accountlar bo’limida gmailga ulangan accountlarni
+                topishingiz mumkin
+              </p>
+            </div>
+          </div>
+          <div class="col-10 col-md-5">
+            <div class="card">
+              <div class="card-img">
+                <img src="./images/card-img2.jpg" alt="" class="card-img" />
+              </div>
+              <h2 class="text-center card-h2">RESELLERS ACCOUNTS</h2>
+              <p class="text-center card-text">
+                Siz reseller accounts bo’limidan o’yin ichiga kirib pochta yozib
+                kirishingiz mumkin
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <div class="taklif">
+          <h1 class="h1TK">SIZGA TAKLIFIMIZ BOR</h1>
+          <div class="taklif_item">
+            <div class="leftTK">
+              <h2>Siz pubg account sotish bilan shug’ullanaszmi ?</h2>
+              <p>
+                Agar shunday bo’lsa sizga shu web-saytda o’zingizni savdo
+                ishingizni boshqarishni taklif qilamiz
+              </p>
+              <div class="boglanish">
+                <h3>Biz bilan bog’lanish uchun</h3>
+                <div class="bk-btns">
+                  <button class="oneBTN">
+                    <img src="/images/iconTG.png" alt="icon" />@Abdukabirov_B
+                  </button>
+                  <button class="oneBTN">
+                    <img src="/images/iconTG.png" alt="icon" />@Sob1rov1ch_1123
+                  </button>
+                  <button class="twoBTN">
+                    <img src="/images//iconTL.png" alt="icon" />(97)-477-50-15
+                  </button>
+                  <br>
+                  <button class="twoBTN">
+                    <img src="/images//iconTL.png" alt="icon" />(93)-109-05-08
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="rightTK">
+              <img src="/images/bottomSC.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <hr />
+          <div class="footer_title">
+            <h1>PUBG ACCOUNTS</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    {% endblock %}
+  </body>
+</html>
